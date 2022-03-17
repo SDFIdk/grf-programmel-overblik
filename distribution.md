@@ -42,7 +42,7 @@ Continuous deployment og continuous delivery [begge forkortet CD] henviser til t
 
 Som indikeret er continuous deployment og continuous delivery som regel processer, der sættes op i éns continuous-integration pipeline.
 
-Ovenfor har er nævnt brugen af én eller flere workflow-filer, der kan læses af GitHub Actions, når kodeændringer sendes til det centrale arkiv på GitHub. På <abbr title="Datadistribution">DAD</abbr>s servere er CI-platformen Jenkins, hvor éns CI-pipeline styres med skridt i en enkelt fil, der som standard skal hedde [`Jenkinsfile`](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/). Som eksempel på en applikation kan nævnes [Valdemar](https://valdemar.kortforsyningen.dk/), der automatisk rulles ud på test-serveren (Continuous Delivery), men kun manuelt kan rulles på produktionsserveren. [WEBPROJ](https://docs.dataforsyningen.dk/#webproj) har en tilsvarende opsætning.
+Ovenfor har er nævnt brugen af én eller flere workflow-filer, der kan læses af GitHub Actions, når kodeændringer sendes til det centrale arkiv på GitHub. På kontoret <abbr title="Datadistribution">DAD</abbr>s servere er CI-platformen Jenkins, hvor éns CI-pipeline styres med skridt i en enkelt fil, der som standard skal hedde [`Jenkinsfile`](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/). Som eksempel på en applikation kan nævnes [Valdemar](https://github.com/Kortforsyningen/Fikspunkt), der automatisk rulles ud på test-serveren (Continuous Delivery), men kun manuelt kan rulles på produktionsserveren. [WEBPROJ](https://github.com/Kortforsyningen/WEBPROJ) har en tilsvarende opsætning.
 
 
 **API-dokumentation**
