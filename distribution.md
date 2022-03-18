@@ -1,3 +1,5 @@
+**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
+
 # Kategori: Distribution
 
 <div style="text-align: center">
@@ -9,7 +11,7 @@ I denne kategori hører software, der har en offentlig snitflade og dermed bruge
 Sammen kravene til kategorierne **[Prototype](prototype.md)** og **[Produktion](produktion.md)** skal nedenstående være opfyldt for programmel kategoriseret som **Distribution**.
 
 
-**Systemafhængigheder**
+### Systemafhængigheder
 
 Systemafhængigheder er alt, hvad det pågældende programmel er afhængigt af for at virke, og kan blandt andet bestå af følgende:
 
@@ -32,7 +34,7 @@ Både bruger og udvikler skal få et overblik over afhængigheder som disse, nå
 
 
 
-**Continuous Delivery/Deployment (CD)**
+### Continuous Delivery/Deployment (CD)
 
 Continuous deployment og continuous delivery [begge forkortet CD] henviser til to processer, der begge kan være en del af éns Continuous-Integration [CI] pipeline:
 
@@ -45,13 +47,13 @@ Som indikeret er continuous deployment og continuous delivery som regel processe
 Ovenfor har er nævnt brugen af én eller flere workflow-filer, der kan læses af GitHub Actions, når kodeændringer sendes til det centrale arkiv på GitHub. På kontoret <abbr title="Datadistribution">DAD</abbr>s servere er CI-platformen Jenkins, hvor éns CI-pipeline styres med skridt i en enkelt fil, der som standard skal hedde [`Jenkinsfile`](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/). Som eksempel på en applikation kan nævnes [Valdemar](https://github.com/Kortforsyningen/Fikspunkt), der automatisk rulles ud på test-serveren (Continuous Delivery), men kun manuelt kan rulles på produktionsserveren. [WEBPROJ](https://github.com/Kortforsyningen/WEBPROJ) har en tilsvarende opsætning.
 
 
-**API-dokumentation**
+### API-dokumentation
 
 Programmel kan anvendes af anden kode eller andre systemer på flere måder. Snitfladen til programmellets funktionalitet fra eksterne programmer kaldes for Application-Programming Interface [API]. Følgende scenarier er eksempler på API'er:
 
-1.  Et programmellet et bibliotek, der kan bruges som tredjepartsmodul i andre sammenhænge, vil API her henvise til dén del af bibliotekets funktionalitet, som har til formål at eksponere funktionaliteten til brugeren.
+1.  Er programmellet et bibliotek, der kan bruges som tredjepartsmodul i andre sammenhænge, vil API her henvise til dén del af bibliotekets funktionalitet, som har til formål at eksponere funktionaliteten til brugeren.
 
-2.  Programmel, der som selvstændigt programmet [*en* applikation] udstiller eksempelvis en service, når programmet kører, har dermed også en API, som kan tilgås på flere forskellige måder og ikke nødvendigvis med programmel skrevet i samme programmeringssprog som programmet selv.
+2.  Programmel, der som selvstændigt programmet [*en.* applikation] udstiller eksempelvis en service, når programmet kører, har dermed også en API, som kan tilgås på flere forskellige måder og ikke nødvendigvis med programmel skrevet i samme programmeringssprog som programmet selv.
 
 Der skal være dokumentation af programmellets API med i resten af dokumentationen.
 

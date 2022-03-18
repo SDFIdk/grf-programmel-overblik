@@ -13,15 +13,19 @@ Formålet med kravene er at sikre, at forretningskritisk programmel som minimum 
 
 Vi har som udgangspunkt samlet de tekniske krav i tre kategorier af egenudviklet programmel i GRF.
 
-|     Kategori     |                                              Formål                                             |
-|------------------|-------------------------------------------------------------------------------------------------|
-| [Prototype][]    | Eksperimenter<br />Kortvarige opgaver, eksempelvis databasemigrering<br />Diverse små-scripts   |
-| [Produktion][]   | Software, der aktivt bruges i forretningen, eksempelvis tidsserieanalyser eller andre værktøjer |
-| [Distribution][] | Software, der har en offentlig snitflade, eksempelvis API eller system til datadistribution     |
+|     Kategori     |          Python-skabelon          |                                              Formål                                             |
+|------------------|-----------------------------------|-------------------------------------------------------------------------------------------------|
+| [Prototype][]    | [Skabelon][skabelon-prototype]    | Eksperimenter<br />Kortvarige opgaver, eksempelvis databasemigrering<br />Diverse små-scripts   |
+| [Produktion][]   | [Skabelon][skabelon-produktion]   | Software, der aktivt bruges i forretningen, eksempelvis tidsserieanalyser eller andre værktøjer |
+| [Distribution][] | [Skabelon][skabelon-distribution] | Software, der har en offentlig snitflade, eksempelvis API eller system til datadistribution     |
 
-[Prototype]: https://github.com/Kortforsyningen/template-python-prototype
-[Produktion]: https://github.com/Kortforsyningen/template-python-production
-[Distribution]: https://github.com/Kortforsyningen/template-python-distribution
+[Prototype]: prototype.md
+[Produktion]: produktion.md
+[Distribution]: distribution.md
+
+[skabelon-prototype]: https://github.com/Kortforsyningen/template-python-prototype
+[skabelon-produktion]: https://github.com/Kortforsyningen/template-python-production
+[skabelon-distribution]: https://github.com/Kortforsyningen/template-python-distribution
 
 Til hver enkelt kategori er der oprettet et skabelon-arkiv med GitHub Template Repositories, som gør det nemt for nye og eksisterende projekter at starte (forfra) med den basale opsætning, som den enkelte kategori fordrer.
 

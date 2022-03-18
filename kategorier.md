@@ -1,3 +1,5 @@
+**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
+
 # Programmel-overblik
 
 Kontorets egenudviklede programmel bør følge fælles retningslinjer for bedste praksis i forhold til software-udvikling. Den overordnede vision for ethvert projekt bør være en tilstand, hvor programmel og dokumentation heraf er fremtidssikret. Når det er fremtidssikret, vil det eksempelvis til alle tider vil være muligt for nye personer på et givet projekt at komme nemt igang og fortsætte, hvor andre slap. Generelt set, vil der være strukturer på plads, som sikrer, at det pågældende programmel kan bruges i fremtiden uden adgang til andet end koden, dokumentation samt historik heraf.

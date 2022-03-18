@@ -1,3 +1,5 @@
+**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
+
 # Kategori: Prototype
 
 <div style="text-align: center">
@@ -11,10 +13,10 @@ Som nævnt ovenfor, er eksempler på programmel i kategorien Prototype blandt an
 
 *   Alle filer relateret til koden (herunder test-kode, dokumentation, konfigurationsfiler og andet) er samlet og versionsstyret for at sikre, at filerne hænger sammen med hinanden på tværs af arkiv-versionerne.
 
-> Bemærk, at der er forskel på en given version af arkivets indhold (i Git er det en SHA1-hash, der udgør et bidrags [*en* commit] version) og den semantiske version af dét stykke programmel, der ligger i arkivet (eksempelvis version `1.2.3` for en pakke). Versionering af kodeudgivelser er ikke et krav i denne kategori, men se mere om dette [under **Produktion**](produktion.md).
+> Bemærk, at der er forskel på en given version af arkivets indhold (i Git er det en SHA1-hash, der udgør et bidrags [*en.* commit] version) og den semantiske version af dét stykke programmel, der ligger i arkivet (eksempelvis version `1.2.3` for en pakke). Versionering af kodeudgivelser er ikke et krav i denne kategori, men se mere om dette [under **Produktion**](produktion.md).
 
 
-**Git-arkivet**
+### Git-arkivet
 
 Et Git-arkiv har altid en `.git`-mappe som indeholder versionshistorikken. Ud over denne, er der andre muligheder for at konfigurere versionsstyringen:
 
@@ -30,7 +32,7 @@ Et Git-arkiv har altid en `.git`-mappe som indeholder versionshistorikken. Ud ov
 > *   Din lokale og personlige `.gitconfig`-fil bør sættes op, inden du laver ændringer.
 
 
-**Git-arkiv på GitHub**
+### Git-arkiv på GitHub
 
 GitHub er en Microsoft-ejet, online platform, som fungerer som en central placering af vores Git-arkiver. Platformen yder flere ekstra ting, som gør det lettere at administrere de enkelte arkiver, herunder at sammenflette versioner, der kommer fra de enkelte bidragsydere til arkiverne.
 
@@ -40,7 +42,7 @@ GitHub er en Microsoft-ejet, online platform, som fungerer som en central placer
 
 ## Programmel-kildekode
 
-Programmel-koden udgør programmellets egentlige funktionalitet. Programmellets funktionalitet er forskellig fra alle de filer, mekanismer og andet i arkivet, som bruges til at arbejde med koden [installationsprogrammer, konfigurationsfiler, etc.]. Derfor placeres programel-koden i en separat mappe adskilt fra andet, der ikke er nødvendigt, når programmellet er installeret.
+Kildekoden udgør programmellets egentlige funktionalitet. Programmellets funktionalitet er forskellig fra alle de filer, mekanismer og andet i arkivet, som bruges til at arbejde med koden [installationsprogrammer, konfigurationsfiler, etc.]. Derfor placeres kildekoden i en separat mappe adskilt fra andet, der ikke er nødvendigt, når programmellet er installeret.
 
 Mere konkret: er programmellet en samling forbundne scripts og moduler, så læg dem i en mappe i arkivets rod kaldet `scripts`. Er det en Python-pakke, så læg pakken i en mappe med navnet `src`.
 
@@ -56,7 +58,7 @@ Konfigurationsfiler kan dække flere formål:
 
 ## Dokumentation
 
-**README-fil**
+### README-fil
 
 I roden af arkivet skal der være en README-fil [kald den `README.md`, og lad være med at oversætte filnavnet til dansk]. Dokumentet skal derfor indeholde oplysninger om projektet, vejledninger, hjælp til at installere og komme igang, samt kontakte arkivets nuværende udviklere.
 
@@ -66,7 +68,8 @@ Inspiration til indholdet af README-filen kan eventuelt hentes i følgende [READ
 
 [DDBECK-checklist]: https://github.com/ddbeck/readme-checklist/blob/main/checklist.md
 
-**Licens**
+
+### Licens
 
 Licensen er en juridisk vejledning i, hvordan man må bruge programmellet, samt hvilke rettigheder, man har som bruger af det.
 
@@ -77,7 +80,8 @@ Licensen er en juridisk vejledning i, hvordan man må bruge programmellet, samt 
 *   Valg af licens: Som udgangspunkt anvender vi MIT-licensen, men overvej behovet.
     -   Læs eventuelt her om, hvorfor det er vigtigt at have valgt en licens, frem for ingenting: [Copy-left and Copy-right -- what you need to know](https://ascl.net/wordpress/wp-content/uploads/2015/01/AAS_2015_VanderPlasUWashCopyrightleft.pdf)
 
-**Brugervejledning**
+
+### Brugervejledning
 
 *   Med tanke på modtagerne, skal der være en vejledning til brugeren, der skal anvende programmellet.
 
@@ -89,7 +93,7 @@ Licensen er en juridisk vejledning i, hvordan man må bruge programmellet, samt 
     -   Brugere (og udviklere) skal vide, hvordan man opretter sager, hvis man oplever fejl i programmellet eller har ændringsønsker. Samtidig lægger vi med al koden på GitHub op til, at man anvender platformen til at bidrage med ændringer, hvis man selv er i stand til at bidrage til projektet, om det så er kode eller dokumentation eller noget tredje.
 
 
-**Installationsvejledning**
+### Installationsvejledning
 
 *   Med tanke på modtagerne, skal der være relevante installationsvejledninger, som er relevante i forbindelse med udvikling og brug af programmellet.
 
@@ -99,7 +103,7 @@ Licensen er en juridisk vejledning i, hvordan man må bruge programmellet, samt 
 *   Brugeren skal i arkivet kunne læse sig til, hvordan programmellet installeres, så det kan tages i brug som et færdigt produkt.
 
 
-**Vedligeholdelsesvejledning**
+### Vedligeholdelsesvejledning
 
 Som en del af fremtidssikringen, skal der i denne kategori som minimum være en beskrivelse af, hvordan projektet fortsat kan vedligeholdes til fremtidigt brug.
 
