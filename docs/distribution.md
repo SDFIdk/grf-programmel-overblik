@@ -1,9 +1,7 @@
-**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
-
 # Kategori: Distribution
 
 <div style="text-align: center">
-  <img title="Illustration af kategorien Distribution" src="./assets/kategorikrav-distribution.png" width="50%" />
+  <img title="Illustration af kategorien Distribution" src="/assets/kategorikrav-distribution.png" width="50%" />
 </div>
 
 I denne kategori hører software, der har en offentlig snitflade og dermed brugere uden for vores organisation, som er afhængige af ikke bare kvalitet, men også tilgængelighed og driftsikkerhed.

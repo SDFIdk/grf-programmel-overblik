@@ -1,0 +1,62 @@
+# Project information
+site_name: GRF Programmel-overblik
+site_description: 
+site_author: Joachim Mortensen
+docs_dir: docs
+
+# Configuration
+theme:
+  name: material
+
+  language: da
+  features:
+  - tabs
+
+  palette:
+    primary: red
+    accent: red
+
+# Plugins
+plugins:
+- search
+
+# Extensions in use
+markdown_extensions:
+
+# - markdown.extensions.admonition
+- admonition
+# - markdown.extensions.attr_list
+# - markdown.extensions.def_list
+- markdown.extensions.footnotes
+# - markdown.extensions.meta
+- markdown.extensions.toc:
+    permalink: true
+
+- pymdownx.betterem:
+    smart_enable: all
+# Make admonitions collapsable with ??? instead of !!!
+- pymdownx.details
+
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
+- pymdownx.highlight
+- pymdownx.inlinehilite
+
+- pymdownx.keys
+
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- pymdownx.snippets
+
+# Navigation
+nav:
+- Kategorier: index.md
+- Prototype: prototype.md
+- Produktion: produktion.md
+- Distribution: distribution.md

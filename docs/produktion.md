@@ -1,9 +1,7 @@
-**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
-
 # Kategori: Produktion
 
 <div style="text-align: center">
-  <img title="Illustration af kategorien Produktion" src="./assets/kategorikrav-produktion.png" width="50%" />
+  <img title="Illustration af kategorien Produktion" src="/assets/kategorikrav-produktion.png" width="50%" />
 </div>
 
 Som nævnt indeholder kategorien **Produktion** software, der aktivt bruges i forretningen.
