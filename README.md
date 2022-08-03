@@ -5,7 +5,7 @@ Af GRF-team Geodætisk Informatik
 Ansvarlig for dette arkiv: [Joachim](https:/github.com/xidus)
 
 
-[kategorier.md](kategorier.md) beskriver Kontoret Geografiske Referencers [GRFs] inddeling af egenudviklede software [programmel] i kategorier med specifikke krav til programmellet i hver kategori. Med inddelingen skaber vi et systematisk **overblik** over eksisterende, aktivt anvendt programmel i kontoret fra forskellige synsvinkler. Overblikket giver os **indsigt** i de enkelte projekters **modenhed**, så vi kan se, hvad der skal gøres, og i hvilket omfang.
+[Disse sider](docs/index.md) beskriver Kontoret Geografiske Referencers [GRFs] inddeling af egenudviklede software [programmel] i kategorier med specifikke krav til programmellet i hver kategori. Med inddelingen skaber vi et systematisk **overblik** over eksisterende, aktivt anvendt programmel i kontoret fra forskellige synsvinkler. Overblikket giver os **indsigt** i de enkelte projekters **modenhed**, så vi kan se, hvad der skal gøres, og i hvilket omfang.
 
 Indplaceringen i en kategori afhænger af det forretningsmæssige formål med det enkelte stykke programmel. Hvert projekts programmel hører til en kategori, og den enkelte kategoris krav er derfor krav til dét programmel, som det enkelte projekt leverer.
 
@@ -19,9 +19,9 @@ Vi har som udgangspunkt samlet de tekniske krav i tre kategorier af egenudviklet
 | [Produktion][]   | [Skabelon][skabelon-produktion]   | Software, der aktivt bruges i forretningen, eksempelvis tidsserieanalyser eller andre værktøjer |
 | [Distribution][] | [Skabelon][skabelon-distribution] | Software, der har en offentlig snitflade, eksempelvis API eller system til datadistribution     |
 
-[Prototype]: prototype.md
-[Produktion]: produktion.md
-[Distribution]: distribution.md
+[Prototype]: docs/prototype.md
+[Produktion]: docs/produktion.md
+[Distribution]: docs/distribution.md
 
 [skabelon-prototype]: https://github.com/Kortforsyningen/template-python-prototype
 [skabelon-produktion]: https://github.com/Kortforsyningen/template-python-production
