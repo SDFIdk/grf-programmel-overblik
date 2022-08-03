@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="107.15626mm"
-   height="107.15626mm"
-   viewBox="0 0 107.15626 107.15626"
+   width="107.54444mm"
+   height="53.966183mm"
+   viewBox="0 0 107.54444 53.966184"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="kategorikrav.svg"
-   inkscape:export-filename="C:\Users\B088195\Desktop\git\grf-programmel-overblik\assets\kategorikrav.png"
+   inkscape:export-filename="C:\Users\B088195\Desktop\git\grf-programmel-overblik\docs\assets\kategorikrav.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-91.216775"
-     inkscape:cy="259.50819"
+     inkscape:zoom="1"
+     inkscape:cx="153.5"
+     inkscape:cy="253.5"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -45,118 +45,104 @@
      inkscape:label="Alle krav"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.66145831,0.66145831)"
-     sodipodi:insensitive="true"
-     style="display:inline;opacity:1">
-    <g
-       id="g941">
-      <rect
-         style="fill:#dddddd;fill-opacity:1;stroke:#cccccc;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect932"
-         width="105.83334"
-         height="105.83334"
-         x="0"
-         y="0" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
+     transform="translate(0.85555056,0.85555056)"
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#dddddd;fill-opacity:1;stroke:#cccccc;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect932"
+       width="106.22153"
+       height="52.643265"
+       x="-0.19409224"
+       y="-0.19409224" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
+       x="3.2228377"
+       y="8.4651184"
+       id="text2032"><tspan
+         sodipodi:role="line"
+         id="tspan2030"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
          x="3.2228377"
-         y="10.846369"
-         id="text2032"><tspan
-           sodipodi:role="line"
-           id="tspan2030"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
-           x="3.2228377"
-           y="10.846369">Alle krav</tspan></text>
-    </g>
+         y="8.4651184">Alle krav</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Distribution"
-     sodipodi:insensitive="true"
-     style="display:inline;opacity:1">
-    <g
-       id="g1105">
-      <rect
-         style="fill:#2a91ab;fill-opacity:1;stroke:#21829a;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect930"
-         width="79.375"
-         height="79.375"
-         x="0.66145831"
-         y="27.119793" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
+     style="display:inline;opacity:1"
+     transform="translate(0.19409225,0.19409225)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#2a91ab;fill-opacity:1;stroke:#21829a;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect930"
+       width="93.577293"
+       height="39.337791"
+       x="0.50560182"
+       y="13.734604" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
+       x="3.3223147"
+       y="22.35528"
+       id="text3686"><tspan
+         sodipodi:role="line"
+         id="tspan3684"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
          x="3.3223147"
-         y="37.966152"
-         id="text3686"><tspan
-           sodipodi:role="line"
-           id="tspan3684"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
-           x="3.3223147"
-           y="37.966152">Distribution</tspan></text>
-    </g>
+         y="22.35528">Distribution</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Produktion"
-     sodipodi:insensitive="true"
-     style="display:inline;opacity:1">
-    <g
-       id="g1100">
-      <rect
-         style="fill:#f7d95b;fill-opacity:1;stroke:#e1ba13;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect928"
-         width="52.916668"
-         height="52.916668"
-         x="0.66145831"
-         y="53.578129" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
+     style="display:inline;opacity:1"
+     transform="translate(0.19409225,0.19409225)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#f7d95b;fill-opacity:1;stroke:#e1ba13;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect928"
+       width="80.87616"
+       height="25.974165"
+       x="0.57291597"
+       y="27.031418" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
+       x="3.3223147"
+       y="35.585281"
+       id="text5208"><tspan
+         sodipodi:role="line"
+         id="tspan5206"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
          x="3.3223147"
-         y="64.424492"
-         id="text5208"><tspan
-           sodipodi:role="line"
-           id="tspan5206"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
-           x="3.3223147"
-           y="64.424492">Produktion</tspan></text>
-    </g>
+         y="35.585281">Produktion</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Prototype"
-     sodipodi:insensitive="true"
-     style="opacity:1">
-    <g
-       id="g1095">
-      <rect
-         style="fill:#f3775e;fill-opacity:1;stroke:#d0553c;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect846"
-         width="26.458334"
-         height="26.458334"
-         x="0.66145831"
-         y="80.036461" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
+     style="opacity:1"
+     transform="translate(0.19409225,0.19409225)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#f3775e;fill-opacity:1;stroke:#d0553c;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846"
+       width="68.000954"
+       height="12.436458"
+       x="0.72701943"
+       y="40.41452" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
+       x="3.3223147"
+       y="48.597889"
+       id="text5926"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;stroke-width:0.264583"
          x="3.3223147"
-         y="90.666428"
-         id="text5926"><tspan
-           sodipodi:role="line"
-           id="tspan5924"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
-           x="3.3223147"
-           y="90.666428">Proto-</tspan><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#333333;stroke-width:0.264583"
-           x="3.3223147"
-           y="98.934654"
-           id="tspan56166">type</tspan></text>
-    </g>
+         y="48.597889"
+         id="tspan56166">Prototype</tspan></text>
   </g>
 </svg>
