@@ -35,9 +35,9 @@ programmel i GRF.
 [Produktion]: docs/produktion.md
 [Distribution]: docs/distribution.md
 
-[skabelon-prototype]: https://github.com/Kortforsyningen/template-python-prototype
-[skabelon-produktion]: https://github.com/Kortforsyningen/template-python-production
-[skabelon-distribution]: https://github.com/Kortforsyningen/template-python-distribution
+[skabelon-prototype]: https://github.com/SDFIdk/template-python-prototype
+[skabelon-produktion]: https://github.com/SDFIdk/template-python-production
+[skabelon-distribution]: https://github.com/SDFIdk/template-python-distribution
 
 Til hver enkelt kategori er der oprettet et skabelon-arkiv med GitHub Template
 Repositories, som gør det nemt for nye og eksisterende projekter at starte
@@ -68,8 +68,7 @@ så som styringen af dette arbejde, så kontakt GRF-teamet Geodætisk Informatik
 
 Den centrale og aktive version af dette arkiv bliver vedligeholdt på GitHub.
 
-*   Konkrete ønsker kan oprettes som [GitHub issues]
-    (https://github.com/Kortforsyningen/grf-programmel-overblik/issues).
+*   Konkrete ønsker kan oprettes som [GitHub issues](https://github.com/SDFIdk/grf-programmel-overblik/issues).
 
 *   Bidrag kan oprettes gennem GitHubs forking- og pull-request-mekanisme:
     -   På kodearkivets side, vælg Fork
