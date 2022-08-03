@@ -24,29 +24,27 @@ Inddelingen i kategorier er til for at skabe en klar ramme for forventningerne t
 
 De enkelte kategorier dækker følgende krav:
 
-|                 Krav                | Prototype | Produktion | Distribution |
-|-------------------------------------|-----------|------------|--------------|
-| README-fil                          | x         | x          | x            |
-| Licens                              | x         | x          | x            |
-| `.gitignore`                        | x         | x          | x            |
-| Git-arkiv på GitHub                 | x         | x          | x            |
-| Brugervejledning                    | x         | x          | x            |
-| Installationsvejledning             | x         | x          | x            |
-| Konfigurationsfiler                 | x         | x          | x            |
-| Teknisk dokumentation               |           | x          | x            |
-| Test suite                          |           | x          | x            |
-| Continuous Integration [CI]         |           | x          | x            |
-| Semantisk versionering              |           | x          | x            |
-| Vedligeholdelsesspor                |           | x          | x            |
-| API-dokumentation                   |           |            | x            |
-| Systemafhængigheder                 |           |            | x            |
-| Continuous Delivery/Deployment [CD] |           |            | x            |
+| Krav                                  | Prototype | Produktion | Distribution |
+| ------------------------------------- | :-------: | :--------: | :----------: |
+| README-fil                            | x         | x          | x            |
+| Licens                                | x         | x          | x            |
+| `.gitignore`                          | x         | x          | x            |
+| Git-arkiv på GitHub                   | x         | x          | x            |
+| Brugervejledning                      | x         | x          | x            |
+| Installationsvejledning               | x         | x          | x            |
+| Konfigurationsfiler                   | x         | x          | x            |
+| Teknisk dokumentation                 |           | x          | x            |
+| Test suite                            |           | x          | x            |
+| Continuous Integration [CI]           |           | x          | x            |
+| Semantisk versionering                |           | x          | x            |
+| Vedligeholdelsesspor                  |           | x          | x            |
+| API-dokumentation                     |           |            | x            |
+| Systemafhængigheder                   |           |            | x            |
+| Continuous Delivery/Deployment [CD]   |           |            | x            |
 
 Ud fra tabellen kan man se, at kravene til et projekts programmel bliver flere med hver kategori. Kravene i kategorien **Prototype** er indeholdt i den efterfølgende kategori **Produktion** og denne kategoris krav er igen inkluderet i den sidste kategori **Distribution**. Derfor vil en opfyldelse af alle krav i kategorien **Produktion** medføre, at man opfylder alle krav stillet til programmel i kategorien **Prototype**. På samme måde vil en imødekommelse af alle krav til programmel i kategorien **Distribution** samtidig betyde, at man opfylder alle krav i de to underliggende kategorier **Produktion** og **Prototype**. Det illustreres i følgende figur, der samtidig viser, at der er (uendelige) krav uden for de tre inddelinger, vi har valgt til vores formål lige nu.
 
-<div style="text-align: center">
-  <img title="Illustration af kategoriernes overlappende krav" src="/assets/kategorikrav.png" width="50%" />
-</div>
+![Illustration af kategoriernes overlappende krav](assets/kategorikrav.png)
 
 
 ### Modtagere
