@@ -23,17 +23,16 @@ plugins:
 # Extensions in use
 markdown_extensions:
 
-# - markdown.extensions.admonition
 - admonition
-# - markdown.extensions.attr_list
-# - markdown.extensions.def_list
-- markdown.extensions.footnotes
-# - markdown.extensions.meta
-- markdown.extensions.toc:
+- admonition
+- attr_list
+- footnotes
+- toc:
     permalink: true
 
 - pymdownx.betterem:
     smart_enable: all
+
 # Make admonitions collapsable with ??? instead of !!!
 - pymdownx.details
 
