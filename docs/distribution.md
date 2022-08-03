@@ -1,8 +1,6 @@
 # Kategori: Distribution
 
-<div style="text-align: center">
-  <img title="Illustration af kategorien Distribution" src="/assets/kategorikrav-distribution.png" width="50%" />
-</div>
+![Illustration af kategorien Distribution](assets/kategorikrav-distribution.png){ align=right }
 
 I denne kategori hører software, der har en offentlig snitflade og dermed brugere uden for vores organisation, som er afhængige af ikke bare kvalitet, men også tilgængelighed og driftsikkerhed.
 
