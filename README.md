@@ -92,13 +92,15 @@ at 'installere'.
 
 ### Dokumentation
 
-Arkivet inkluderer [en konfigurationsfil til MkDocs Material](mkdocs.yml), så
+Arkivet har [en konfigurationsfil](mkdocs.yml) til [MkDocs Material][], så
 dokumentationen kan oversættes til en webside med søgefunktionalitet og pænere
 grafisk opsætning.
 
-Da vejledningen er ti linternt brug kan dokumentationen ikke autogenereres, men
-kan bygges lokalt med følgende to kommandoer, som forudsætter at du har Python
-installeret og har oprettet et virtuelt miljø til arkivet:
+[MkDocs Material]: https://squidfunk.github.io/mkdocs-material/
+
+Da vejledningen er til internt brug kan dokumentationen ikke autogenereres på
+GitHub. Den kan bygges lokalt med følgende to kommandoer, som forudsætter at du
+har Python installeret og har oprettet et virtuelt miljø til arkivet:
 
 ```sh
 mamba install -y mkdocs-material
@@ -111,4 +113,3 @@ pakken `mkdocs` i sig selv.
 Anden kommando bygger dokumentationen lokalt, og starter en webserver, der
 lytter på `localhost:8000`, som du kan tilgå i en browser for at se den
 producerede webside.
-
