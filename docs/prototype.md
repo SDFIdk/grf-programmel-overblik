@@ -1,10 +1,6 @@
-**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
-
 # Kategori: Prototype
 
-<div style="text-align: center">
-  <img title="Illustration af kategorien Prototype" src="./assets/kategorikrav-prototype.png" width="50%" />
-</div>
+![Illustration af kategorien Prototype](assets/kategorikrav-prototype.png){ align=right }
 
 Som nævnt ovenfor, er eksempler på programmel i kategorien Prototype blandt andet eksperimenter---herunder prototyper---, midlertidige opgaver og diverse små-scripts.
 

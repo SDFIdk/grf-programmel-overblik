@@ -1,5 +1,3 @@
-**Indhold:** [Overblik](kategorier.md) | [Prototype](prototype.md) | [Produktion](produktion.md) | [Distribution](distribution.md)
-
 # Programmel-overblik
 
 Kontorets egenudviklede programmel bør følge fælles retningslinjer for bedste praksis i forhold til software-udvikling. Den overordnede vision for ethvert projekt bør være en tilstand, hvor programmel og dokumentation heraf er fremtidssikret. Når det er fremtidssikret, vil det eksempelvis til alle tider vil være muligt for nye personer på et givet projekt at komme nemt igang og fortsætte, hvor andre slap. Generelt set, vil der være strukturer på plads, som sikrer, at det pågældende programmel kan bruges i fremtiden uden adgang til andet end koden, dokumentation samt historik heraf.
@@ -26,29 +24,27 @@ Inddelingen i kategorier er til for at skabe en klar ramme for forventningerne t
 
 De enkelte kategorier dækker følgende krav:
 
-|                 Krav                | Prototype | Produktion | Distribution |
-|-------------------------------------|-----------|------------|--------------|
-| README-fil                          | x         | x          | x            |
-| Licens                              | x         | x          | x            |
-| `.gitignore`                        | x         | x          | x            |
-| Git-arkiv på GitHub                 | x         | x          | x            |
-| Brugervejledning                    | x         | x          | x            |
-| Installationsvejledning             | x         | x          | x            |
-| Konfigurationsfiler                 | x         | x          | x            |
-| Teknisk dokumentation               |           | x          | x            |
-| Test suite                          |           | x          | x            |
-| Continuous Integration [CI]         |           | x          | x            |
-| Semantisk versionering              |           | x          | x            |
-| Vedligeholdelsesspor                |           | x          | x            |
-| API-dokumentation                   |           |            | x            |
-| Systemafhængigheder                 |           |            | x            |
-| Continuous Delivery/Deployment [CD] |           |            | x            |
+| Krav                                  | Prototype | Produktion | Distribution |
+| ------------------------------------- | :-------: | :--------: | :----------: |
+| README-fil                            | x         | x          | x            |
+| Licens                                | x         | x          | x            |
+| `.gitignore`                          | x         | x          | x            |
+| Git-arkiv på GitHub                   | x         | x          | x            |
+| Brugervejledning                      | x         | x          | x            |
+| Installationsvejledning               | x         | x          | x            |
+| Konfigurationsfiler                   | x         | x          | x            |
+| Teknisk dokumentation                 |           | x          | x            |
+| Test suite                            |           | x          | x            |
+| Continuous Integration [CI]           |           | x          | x            |
+| Semantisk versionering                |           | x          | x            |
+| Vedligeholdelsesspor                  |           | x          | x            |
+| API-dokumentation                     |           |            | x            |
+| Systemafhængigheder                   |           |            | x            |
+| Continuous Delivery/Deployment [CD]   |           |            | x            |
 
 Ud fra tabellen kan man se, at kravene til et projekts programmel bliver flere med hver kategori. Kravene i kategorien **Prototype** er indeholdt i den efterfølgende kategori **Produktion** og denne kategoris krav er igen inkluderet i den sidste kategori **Distribution**. Derfor vil en opfyldelse af alle krav i kategorien **Produktion** medføre, at man opfylder alle krav stillet til programmel i kategorien **Prototype**. På samme måde vil en imødekommelse af alle krav til programmel i kategorien **Distribution** samtidig betyde, at man opfylder alle krav i de to underliggende kategorier **Produktion** og **Prototype**. Det illustreres i følgende figur, der samtidig viser, at der er (uendelige) krav uden for de tre inddelinger, vi har valgt til vores formål lige nu.
 
-<div style="text-align: center">
-  <img title="Illustration af kategoriernes overlappende krav" src="./assets/kategorikrav.png" width="50%" />
-</div>
+![Illustration af kategoriernes overlappende krav](assets/kategorikrav.png)
 
 
 ### Modtagere
@@ -76,10 +72,3 @@ Der kan være mange formål med programmellet ud over de nævnte, men med kraven
 Det er i orden, at ikke alt er med fra starten, men det skal være tilfældet, at man kan komme videre og bidrage til projektet fra dét stadium, det er i til et givet tidspunkt.
 
 Det er ikke formålet her at fortælle, hvad der skal laves i hvilken rækkefølge. Det vil altid være kontekstafhængigt. Men hvor rækkefølgen til dels er ligemeget, så skal der som minimum være noget, man kan starte ud fra, som bruger eller udvikler, når man tilgår arkivet.
-
-
-### Links til kategori-beskrivelser
-
-*   [prototype.md](prototype.md)
-*   [produktion.md](produktion.md)
-*   [distribution.md](distribution.md)
